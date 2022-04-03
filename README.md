@@ -26,6 +26,7 @@ Blade directives to write javascript code.
   })
 @endspascript
 ```
+ This package will increase the page load speed, as this package is using Tubolinks.
  
  That's all, you need not to do anything else.
 
