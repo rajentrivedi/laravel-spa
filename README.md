@@ -9,6 +9,15 @@ Installation
  ```php
  @spa
  ```
+ Example
+ ```php
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    @spa
+  </head>
+</html>
+```
  
  That's all, you need not to do anything else.
 
