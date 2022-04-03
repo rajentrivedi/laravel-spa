@@ -10,7 +10,7 @@ class SpaServiceProvider extends ServiceProvider
         {
             Blade::directive('spa', function() {
                 $href = 'https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.min.js';
-                return '<script src="'.$href.'"></script>';
+                return '<meta name="turbolinks-cache-control" content="no-cache"><script src="'.$href.'"></script>';
             });
 
             Blade::directive('spascript', function (){
@@ -19,7 +19,7 @@ class SpaServiceProvider extends ServiceProvider
 
                    })";
             });
-            
+
             Blade::directive('endspascript', function(){
                 return '</script>';
             });
