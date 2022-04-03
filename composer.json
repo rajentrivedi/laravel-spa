@@ -15,5 +15,15 @@
         "psr-4": {
             "Rajen\\Spa\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rajen\\Spa\\SpaServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
     }
 }
