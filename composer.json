@@ -1,0 +1,19 @@
+{
+    "name": "rajentrivedi/laravel-spa",
+    "description": "Convert Normal Laravel App in to SPA",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rajentrivedi",
+            "email": "laravel.rajen@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rajen\\Spa\\": "src/"
+        }
+    }
+}
