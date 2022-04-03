@@ -5,8 +5,7 @@ Installation
   ```php
   composer require rajentrivedi/laravel-spa
   ```
- You can use following blade directive in to your project's master blade or blade where you load all your asses.
- Better to use this blade directive in head section.
+ You need to use following blade directive in to head section of your master blade file, where you load all your assests.
  ```php
  @spa
  ```
