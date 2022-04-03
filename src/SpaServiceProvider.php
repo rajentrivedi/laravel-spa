@@ -12,5 +12,16 @@ class SpaServiceProvider extends ServiceProvider
                 $href = 'https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.min.js';
                 return '<script src="'.$href.'"></script>';
             });
+
+            Blade::directive('spascript', function (){
+                return "<script>
+                            $(document).on('turbolinks:load', function(){
+
+                   })";
+            });
+            
+            Blade::directive('endspascript', function(){
+                return '</script>';
+            });
         }
 }

@@ -18,6 +18,14 @@ Installation
   </head>
 </html>
 ```
+Blade directives to write javascript code.
+```php
+@spascript
+  $('#your_id').click(function(){
+    console.log('working');
+  })
+@endspascript
+```
  
  That's all, you need not to do anything else.
 
