@@ -35,8 +35,7 @@ Example
 ```php
 <a href="{{route('excel.download')}}" class="btn btn-primary btn-md m-5" @disablespa>Excel</a>
 ```
-@endspascript
-```
+
  This package will increase the page load speed, as this package is using Tubolinks.
  
  That's all, you need not to do anything else.
