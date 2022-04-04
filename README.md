@@ -36,7 +36,7 @@ Example
 <a href="{{route('excel.download')}}" class="btn btn-primary btn-md m-5" @disablespa>Excel</a>
 ```
 
- This package will increase the page load speed, as this package is using Tubolinks.
+ This package will increase the page load speed, as this package is using [Tubolinks](https://github.com/turbolinks/turbolinks#canceling-visits-before-they-start).
  
  That's all, you need not to do anything else.
 
