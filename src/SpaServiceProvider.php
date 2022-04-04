@@ -23,5 +23,9 @@ class SpaServiceProvider extends ServiceProvider
             Blade::directive('endspascript', function(){
                 return '</script>';
             });
+
+            Blade::directive('disablespa', function(){
+                return 'data-turbolinks="false"';
+            });
         }
 }
