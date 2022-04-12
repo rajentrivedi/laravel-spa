@@ -6,11 +6,11 @@ Installation
   composer require rajentrivedi/laravel-spa
   ```
  You need to use following blade directive in to head section of your master blade file, where you load all your assests.
- ```php
+ ```
  @spa
  ```
  Example
- ```php
+ ```
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -19,7 +19,7 @@ Installation
 </html>
 ```
 Blade directives to write javascript code.
-```php
+```
 @spascript
   $('#your_id').click(function(){
     console.log('working');
@@ -28,11 +28,11 @@ Blade directives to write javascript code.
 ```
 
 If you want to disable spa for perticular link.
-```php
+```
 @disablespa
 ```
 Example
-```php
+```
 <a href="{{route('excel.download')}}" class="btn btn-primary btn-md m-5" @disablespa>Excel</a>
 ```
 
